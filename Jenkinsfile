@@ -1,10 +1,6 @@
 pipeline {
   agent any
 
-  tools {
-    nodejs 'node20'
-  }
-
   environment {
     DOCKERHUB_USER = credentials('dockerhub_username')
     DOCKERHUB_PASS = credentials('dockerhub_password')
