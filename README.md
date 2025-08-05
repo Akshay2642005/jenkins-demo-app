@@ -1,12 +1,24 @@
-# React + Vite
+# Task 2 - DevOps: Jenkins CI/CD Pipeline
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project sets up a Jenkins pipeline to:
+- Build a simple Vite app
+- Dockerize it
+- Push it to Docker Hub
 
-Currently, two official plugins are available:
+## 🔧 Tools
+- Jenkins
+- Docker
+- GitHub
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 CI/CD Steps
+1. Code pushed to GitHub
+2. Jenkins pipeline triggers
+3. App is built using Node.js
+4. Docker image is created
+5. Image is pushed to Docker Hub
 
-## Expanding the ESLint configuration
+## 🧪 How to Test
+- Make a commit and push to GitHub
+- Jenkins auto-runs the pipeline
+- Check Docker Hub for updated image
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
