@@ -85,7 +85,7 @@ describe('Basic math', () => {
 ### ✅ Jenkins Build Success
 ![Jenkins Build Success](./screenshot-1.png)
 
-### ✅ Docker Image Push
+### ✅ Github Scm Push Trigger Success
 ![Github Scm Push Trigger Success](./screenshot-2.png)
 
 ---
