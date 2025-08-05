@@ -88,6 +88,9 @@ describe('Basic math', () => {
 ### ✅ Github Scm Push Trigger Success
 ![Github Scm Push Trigger Success](./screenshot-2.png)
 
+### ✅ Docker Image Push Success
+![Docker Image Push Success](./screenshot-3.png)
+
 ---
 
 ## 📦 Build Locally
