@@ -3,7 +3,6 @@ pipeline {
 
   tools {
     nodejs 'node24'
-    dockerTool 'docker-dev'
   }
 
   environment {
